@@ -43,5 +43,30 @@
         "id": 9,
         "name": "Krusty Clown",
         "image": "/assets/Krusty_The_Clown.webp"
+    },
+    {
+        "id": 10,
+        "name": "Moe",
+        "image": "/assets/MoeSyzlak.webp"
+    },
+    {
+        "id": 11,
+        "name": "Ned",
+        "image": "/assets/NedFlanders.webp"
+    },
+    {
+        "id": 12,
+        "name": "Patty",
+        "image": "/assets/Patty_Bouvier.webp"
+    },
+    {
+        "id": 13,
+        "name": "Selma",
+        "image": "/assets/Selma_Bouvier.webp"
+    },
+    {
+        "id": 14,
+        "name": "Sherriterri",
+        "image": "/assets/Sherriterri.webp"
     }
 ]
