@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import characterData from '../assets/characterData.json';
 import './CharacterGallery.css'
 
-function CharacterGallery({ setScore }) {
+function CharacterGallery({ setScore, setMessage }) {
 
     const [clickedIds, setClickedIds] = useState([]);
     const [characters, setCharacters] = useState(characterData);
+
 
     function shuffleCharacters() {
         const shuffledCharacters = [...characters].sort(() => Math.random() - 0.5);
@@ -17,8 +18,9 @@ function CharacterGallery({ setScore }) {
         if (!clickedIds.includes(id)) {
             setClickedIds((prev) => [...prev, id]);
             setScore((prevScore) => prevScore + 1);
+            setMessage('Got it right!')
         } else {
-            console.log('Already clicked');
+            setMessage('Wrong image! Start again!')
             setClickedIds([]);
             setScore(0);
         }
