@@ -2,6 +2,46 @@
     {
         "id": 1,
         "name": "Homer",
-        "image": "./Home_Simpson.webp"
+        "image": "/assets/Homer_Simpson.webp"
+    },
+    {
+        "id": 2,
+        "name": "Bart",
+        "image": "/assets/Bart_Simpson.webp"
+    },
+    {
+        "id": 3,
+        "name": "Marge",
+        "image": "/assets/Marge_Simpson.webp"
+    },
+    {
+        "id": 4,
+        "name": "Lisa",
+        "image": "/assets/Lisa_Simpson.webp"
+    },
+    {
+        "id": 5,
+        "name": "Grandpa",
+        "image": "/assets/Grandpa_Abe_Simpson.webp"
+    },
+    {
+        "id": 6,
+        "name": "Barney",
+        "image": "/assets/BarneyGumble.webp"
+    },
+    {
+        "id": 7,
+        "name": "Chief Clancy",
+        "image": "/assets/ChiefClancyWiggum.webp"
+    },
+    {
+        "id": 8,
+        "name": "Comic Guy",
+        "image": "/assets/ComicBookGuy-TheSimpsons.webp"
+    },
+    {
+        "id": 9,
+        "name": "Krusty Clown",
+        "image": "/assets/Krusty_The_Clown.webp"
     }
 ]
